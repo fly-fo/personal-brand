@@ -1,4 +1,4 @@
-fetch("https://api.giphy.com/v1/gifs/random?api_key=wa6fIGDUO1f0LJKLS8EppooJQ91pnmFE&tag=sea+lion&rating=g")
+fetch("https://api.giphy.com/v1/gifs/random?api_key=wa6fIGDUO1f0LJKLS8EppooJQ91pnmFE&tag=animal+fashion&rating=g")
 .then(function(response) {
     if (response.status == 200) {
         return response.json();
